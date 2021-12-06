@@ -8,8 +8,6 @@
 }
 
 body{
-    background-color: black;
-
     font-family: 'Kaisei HarunoUmi', serif;
     margin:0px;
 }
@@ -18,8 +16,8 @@ hr{
 }
 /**container**/
 .container{
-    padding-left:1rem;
-    padding-right:1rem;
+    padding-left:1cm;
+    padding-right:1cm;
 }
 
 .container-center{
@@ -50,8 +48,8 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color:white;
-    padding-top: 1cm;
-    padding-bottom: 1cm;;
+    padding-top: .5cm;
+    padding-bottom: .5cm;;
     border-bottom-left-radius:1rem;
     border-top-right-radius:1rem;
     
@@ -117,6 +115,11 @@ padding:1rem;
 text-align: center;
 margin:12px auto;
 
+
+}
+.section
+.container-container-center{
+    color: black;
 }
 .section h1{
    text-align:center;
